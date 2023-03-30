@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Noticias Del Dia</title>
+	<link rel="stylesheet" href="Desafio5.css">
+</head>
+<body>
+	<header>
+		<h1>Noticias</h1>
+		<div class="search">
+			<input type="text" placeholder="Buscar...">
+			<button>Buscar</button>
+		</div>
+		<div class="categories">
+			<button id="all">Todas</button>
+			<button id="sports">Deportes</button>
+			<button id="politics">Política</button>
+			<button id="music">Musica</button>
+			<button id="technology">Tecnología</button>
+            <button id="ambiente">Ambiente</button>
+		</div>
+	</header>
+
+	<main>
+		<section class="highlighted-news">
+			<article>
+				<h2><a href = "https://www.fotogramas.es/noticias-cine/a38304671/pixar-calendario-peliculas-series-proximos-estrenos/">Peliculas Pixar</a></h2>
+				<p>Peliculas Proximas de Pixar</p>
+				<span class="category">Entetenimiento</span>
+			</article>
+			<article>
+				<h2><a href = "https://www.chilango.com/agenda/musica-agenda/de-musica-ligera-de-soda-stereo-tiene-sus-origenes-en-mexico/">Soda Stereo</a></h2>
+				<p>Los origenes de soda Stereo</p>
+				<span class="category">Musica</span>
+			</article>
+		</section>
+		<section class="all-news">
+			<h2>Todas las noticias</h2>
+			<article>
+				<h3><a href = "https://www.infobae.com/mexico/2023/03/28/temblor-hoy-en-mexico-noticias-de-la-actividad-sismica-del-28-de-marzo-de-2023/">Nuevo temblor en mexico</a></h3>
+				<p>28 de Marzo de 2023 se sucita otro temblor.Mas info en.</p>
+				<span class="category">Ambiente</span>
+			</article>
+			<article>
+				<h3><a href = "https://elpais.com/tecnologia/2023-03-25/muere-gordon-moore-cofundador-de-intel-y-pionero-de-la-informatica.html">Muere Gordon Moore, cofundador de Intel y pionero de la informática</a></h3>
+				<p>El ingeniero de 94 años, creador de la ley que lleva su nombre, fue clave en el desarrollo de microprocesadores cada vez más potentes y pequeños que revolucionaron la computación</p>
+				<span class="category">Tecnología</span>
+			</article>
+			<article>
+				<h3><a href = "https://www.elmundo.es/deportes/motociclismo/2023/03/27/64215cd0fc6c839d0a8b45a0.html">Marc Márquez, operado de una fractura en la mano derecha, no viajará a Argentina</a></h3>
+				<p>El piloto de Repsol Honda se produjo una fractura del primer metacarpiano tras una caída en el GP de Portugal y no podrá disputar la segunda carrera del Mundial.</p>
+				<span class="category">Deporte</span>
+			</article>
+			<article>
+				<h3><a href = "https://elpais.com/internacional/2023-03-29/guerra-ucrania-rusia-ultimas-noticias-en-directo.html">Guerra en Ucrania</a></h3>
+				<p>Tras los conflictos que han habido en Ucrania, ha estallado la guerra.</p>
+				<span class="category">Politica</span>
+			</article>
+		</section>
+	</main>
+	<p class="small-text"></p>
+    <input id="checkitem" type="checkbox" onclick="enableDarkMode()">
+	<script src="Desafio5.js"></script>
+	<script src="Desafio1.js"></script>
+</body>
+</html>

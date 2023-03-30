@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Desafio4.css">
+    <title>Reproductor Design</title>
+</head>
+
+<body>
+    
+    <div class="player">
+        <div id="info" class="info">
+            <span class="artist">Design</span>
+            <span class="name">Jocker Code</span>
+            <div class="progress-bar">
+                <div class="bar"></div>
+            </div>
+        </div>   
+
+        <div id="control-panel" class="control-panel">
+            <div class="album-art">
+                <img src="img/Fondo.jpg" alt="">
+            </div>
+            <div class="controls">
+                <div class="prev"></div>
+                <div class="play" id="play"></div>
+                <div class="next"></div>
+            </div>
+        </div>
+    </div>
+
+    <audio id="Music" controls style="display: none;">
+        <source  src="audio/audio_cancion.mp3" type="audio/mpeg">
+        <source src="audio/Alejandro Fernandez &  Vicente Fernandez ( Perdon ).mp3" type="audio/mpeg">
+        <source src="audio/Ana Gabriel - Mi Talismán-No Entiendo-Hechizo.mp3" type="audio/mpeg">
+        <source src="audio/Juan Gabriel - Hasta Que Te Conocí.mp3" type="audio/mpeg">
+        <source src="audio/Joan Sebastian megustas con banda.mp3" type="audio/mpeg">
+    </audio>
+    <p class="small-text"></p>
+    <input id="checkitem" type="checkbox" onclick="enableDarkMode()">
+</body>
+
+<script src="Desafio4.js"></script>
+<script src="Desafio1.js"></script>
+
+</html>
